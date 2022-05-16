@@ -1,0 +1,23 @@
+body{
+    background-color: #737373;
+    margin: 0%;
+}
+#heading {
+    width: 100%;
+}
+main {
+
+    text-align: center;
+}
+.small {
+    background-color: #444444; 
+    display: inline-block;
+    width: 20%;
+    margin: 50px 50px;
+    border-radius: 50%;
+    padding: 15px;
+
+}
+* {
+    border: 2px ;
+}
