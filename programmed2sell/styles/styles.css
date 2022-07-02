@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&family=Sansita+Swashed:wght@600&display=swap'); 
+
+body {
+    background-color:#fe0e0e;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+header {
+    background-color:#130f9b;
+    font-family: 'Sansita Swashed', cursive;
+    display: grid;
+    grid-template-columns: 150px auto;
+
+}
+.logo {
+    max-width: 200px;
+    max-height: 200px;
+    cursor: pointer;
+    display: flex;
+    z-index: -1;
+    border-radius: 8px;
+}
+#logo_link{
+    justify-self: center;
+    align-self: center;
+}
+.home-title{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 2em;
+    margin-top: 10px;
+}
+nav a {
+    text-align: center;
+    color: #7c6c27;
+    text-decoration: none;
+    padding: 35px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a:hover{
+    background-color:#7c6c27;
+    color: white;
+}
+.home-title{
+    color: #134266;
+}
+h4{
+    color: #134266;
+}
+.book, .join {
+    background-color:#130f9b;
+    color: #7c6c27;
+    text-decoration: none;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.book:hover, .join:hover {
+    background-color:#7c6c27;
+    color: white;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-box img:nth-of-type(1){
+    width: 50%;
+}
+#hero-box img:nth-of-type(2){
+    width: 50%;
+    float: right;
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+    color: white;
+}
+.button-box{
+    text-align: center;
+}
+.home-grid{
+    text-align: center;
+    font-family: 'Nuosu SIL', serif;
+}
+.home-grid h2 {
+    font-family: 'Sansita Swashed', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color:#130f9b;
+    padding: 25px 50px;
+    margin-top: 200px;
+    font-family: 'Sansita Swashed', cursive;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer h3{
+    color: #7c6c27;
+}
+footer h3 a:hover{
+    text-decoration: underline;
+}
+footer a {
+    color: #7c6c27;
+    text-decoration: none;
+}
+footer a:hover{
+    color: white;
+}
+footer .social img {
+    padding-top: 15px;
+    border-radius: 25px;
+}
+.icon {
+    width: 80px;
+    padding-top: 10px;
+
+}
+.logo {
+    width: 80px;
+}

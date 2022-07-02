@@ -15,10 +15,22 @@ body {
 header {
     background-color:#78c5d7;
     font-family: oswald, sans-serif;
-
+    display: flex;
+    grid-template-columns: 150px auto;
+    justify-content: space-between;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
 }
 #logo_link{
     padding-top: 5px;
+    max-width: 200px;
+    max-height: 200px;
+    cursor: pointer;
+    display: flex;
+    z-index: -1;
+    border-radius: 8px;
+
 }
 .home-title{
     font-family: oswald, sans-serif;
@@ -26,6 +38,7 @@ header {
     margin-top: 10px;
 }
 nav a {
+    display: block;
     text-align: center;
     color: #134266;
     text-decoration: none;
