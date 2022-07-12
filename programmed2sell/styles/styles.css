@@ -143,6 +143,8 @@ footer .social img {
 }
 
 .testimonials-grid {
+    max-width: 1500px;
+    width: 1500px;
     display: grid;
     text-align: center;
 
@@ -162,10 +164,6 @@ footer .social img {
 .t1 img{
     margin: 15px 100px;
 }
-
-
-
-
 .t2{
     margin-top: 45px;
     display: grid;
@@ -181,9 +179,7 @@ footer .social img {
     grid-row: 1/2;
     grid-column: 1/2;
     margin: 15px 0px 0px 200px;
-
 }
-
 .t3{
     margin-top: 60px;
     display: grid;
