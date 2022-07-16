@@ -194,3 +194,42 @@ footer .social img {
     margin: 15px 100px;
 }
 
+
+#banner-box img {
+    max-width: 1600px;
+    width: 1600px;
+    max-height: 600px;
+}
+.free-resources-grid {
+    max-width: 1600px;
+    width: 1600px;
+    height: 1250px;
+    max-height: 1250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.fr1{
+
+    grid-column: 1/2;
+}
+.fr1 p{
+    font-size: xx-large;
+}
+.fr1 img{
+    margin-top: 100px;
+    height: 700px;
+}
+.fr2{
+    margin-left: 490px;
+    text-align: right;
+    grid-column: 2/3;
+}
+
+.fr2 p{
+    font-size: xx-large;
+}
+.fr2 img{
+    margin-top: 175px;
+    height: 700px;
+}
