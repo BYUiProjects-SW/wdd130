@@ -210,7 +210,6 @@ footer .social img {
 }
 
 .fr1{
-
     grid-column: 1/2;
 }
 .fr1 p{
@@ -225,7 +224,6 @@ footer .social img {
     text-align: right;
     grid-column: 2/3;
 }
-
 .fr2 p{
     font-size: xx-large;
 }
